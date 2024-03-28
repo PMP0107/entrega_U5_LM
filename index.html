@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Ciencia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!-- Contenedor de la cabecera -->
+        <div class="header d-flex justify-content-end align-items-center">
+            <div class="header-counter rounded-pill">
+                <h2 class="m-0">1/10</h2>
+            </div>
+        </div>
+
+        <!-- Tarjeta de pregunta -->
+        <div class="question-card mx-auto my-5">
+            <div class="question-title">
+                <h2 class="my-3 text-center">¿Cuál es el planeta más cercano al Sol?</h2>
+            </div>
+            <div class="answers">
+                <!-- Opciones de respuesta como botones -->
+                <button class="answer btn btn-primary mb-4 rounded-lg d-flex align-items-center justify-content-start">
+                    <div class="answer-letter rounded-circle">A</div>
+                    <span class="answer-text pl-4">Venus</span>
+                </button>
+                <button class="answer btn btn-primary mb-4 rounded-lg d-flex align-items-center justify-content-start">
+                    <div class="answer-letter rounded-circle">B</div>
+                    <span class="answer-text pl-4">Mercurio</span>
+                </button>
+                <button class="answer btn btn-primary mb-4 rounded-lg d-flex align-items-center justify-content-start">
+                    <div class="answer-letter rounded-circle">C</div>
+                    <span class="answer-text pl-4">Tierra</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Botón de siguiente pregunta -->
+        <div class="next-button align-self-end mr-5">
+            <button class="btn">
+                <img src="./img/next-button.png" alt="Siguiente">
+            </button>
+        </div>
+    </div>
+
+    <script src="./js/actions.js"></script>
+
+</body>
+</html>
